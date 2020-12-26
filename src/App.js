@@ -12,6 +12,7 @@ import Quiz from './view/Quiz.js';
 import GoodHydration from './view/GoodHydration.js';
 import Dehydrated from './view/Dehydrated.js';
 import References from './view/References.js';
+import QuizQ2 from './view/QuizQ2.js';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
           <Route path="/quiz">
             <Quiz />
+          </Route>
+
+          <Route path="/quizq2">
+            <QuizQ2 />
           </Route>
 
           <Route path="/goodhydration">
