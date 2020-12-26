@@ -23,7 +23,7 @@ function Home() {
       </div>
 
       <div className="flex justify-center pt-7">
-        <img src={drink} alt="drink water picture"/>
+        <img src={drink} alt="drink water"/>
       </div>
     </div>
   )
