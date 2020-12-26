@@ -28,7 +28,9 @@ function Quiz() {
           </div>
         </div>
 
-        <img src={UCC} alt="Urine color chart" className="border-2"/>
+        <div className="flex justify-center pt-10">
+          <img src={UCC} alt="Urine color chart" height={700} width={500} className="border-2 shadow"/>
+        </div>
       </div>
   )
 }

@@ -13,16 +13,18 @@ function Home() {
 
       <p className="p-2.5 pb-5 overflow-ellipsis">Being dehydrated for a long duration increases the possibility of getting kidney stones, diabetes and other vascular diseases.</p>
 
-      <div className="p-2.5 shadow-md border-4 border-green-400 rounded-lg text-center md:w-auto">
+      <div className="p-2.5 text-center md:w-auto">
         <Link
           to="/quiz"
-          className="text-blue-500 text-xl font-bold hover:underline"
+          className="p-3 text-blue-500 text-xl font-bold hover:underline shadow-md border-4 border-green-400 rounded-lg"
           >
           Click Here To Start Checking Your Hydration Status
         </Link>
       </div>
 
-      <img src={drink} alt="drink water picture"  className="pt-10"/>
+      <div className="flex justify-center pt-7">
+        <img src={drink} alt="drink water picture"/>
+      </div>
     </div>
   )
 }

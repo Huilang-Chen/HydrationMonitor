@@ -29,7 +29,9 @@ function QuizQ2() {
         </div>
       </div>
 
-      <img src={waterdrop} alt="water drop picture" />
+      <div className="flex justify-center pt-10">
+        <img src={waterdrop} alt="water drop picture" height={700} width={500} />
+      </div>
     </div>
   )
 }

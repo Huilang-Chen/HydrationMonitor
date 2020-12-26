@@ -20,7 +20,9 @@ function GoodHydration() {
         </ol>
       </div>
 
-      <img src={waterheart} alt="water" className="pt-5"/>
+      <div className="flex justify-center pt-10">
+        <img src={waterheart} alt="water" height={700} width={500} className="pt-5 shadow"/>
+      </div>
     </div>
   )
 }
