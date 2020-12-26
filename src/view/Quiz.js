@@ -5,7 +5,7 @@ import UCC from './../image/UCC.png'
 function Quiz() {
   return (
       <div>
-        <h1 className="font-bold text-xl text-center p-3">Does the urine have the color of lemon juice or lighter color?</h1>
+        <h1 className="font-bold text-xl text-center p-3">Does your urine have the color of lemon juice or lighter color?</h1>
 
         <div className="pt-3 pb-10 flex justify-evenly font-bold">
 
