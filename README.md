@@ -1,73 +1,32 @@
 # Holiday Hack 2020 project
-# Hydration Monitor
+## Project name: Hydration Monitor
 
-# Getting Started with Create React App
+## Inspiration
+According to a survey conducted by the Nutrition Information Center, about 75 percent of Americans are chronically dehydrated. Dehydration can cause fatigue, foggy memory and irritability. Dehydration is one of the most common risk factors for kidney stones. It is critical to maintain well hydrated status in daily life.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does
+Hydration monitor provides a quick access point for people to check their hydration status and gives advices on the fluids intakes.
 
-## Available Scripts
+## How I build it
+The topic was researched to gain enough correct information to help people realize their hydration status. The app was built using the React framework. The web app is styled using the tailwindCSS framework. The react-spring package is used to added transition animation into the web app.
 
-In the project directory, you can run:
+## Challenges I ran into
+Challenges includes research the scientific method to check human hydration state. Also, it is time-consuming to install different react packages and set up configurations.
 
-### `npm start`
+## Accomplishments that I am proud of
+The application is easy to understand and use. The app is concise as well as contains all the necessary information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What I learned
+I learned how to design the layout and the logic of a web app and how to use react framework and different packages to implement it.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## What's next for Hydration Monitor
+Test the application and collect feedbacks to improve the user experience. Add more functionalities to the web application.
 
-### `npm test`
+## Built With
+1. React
+2. TailwindCSS
+3. react-spring
+4. react-router-dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Try it out
+A link here
