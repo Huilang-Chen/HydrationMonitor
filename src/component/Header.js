@@ -11,7 +11,7 @@ function Header() {
     <header className="border-b p-3 flex justify-between items-center">
       <div className = "font-bold flex justify-start items-center">
         <img src={logo} alt="logo" height={30} width={30}/>
-        <h1 className="text-xl p-1">Hydration Monitor</h1>
+        <h1 className="font-extrabold text-xl p-1">Hydration Monitor</h1>
       </div>
 
       <Navigation />
