@@ -8,6 +8,7 @@ function NavigationMenu (props) {
         ✌️ Hydration Monitor
       </div>
       <ul>
+
         <li>
           <Link
             to="/"
@@ -17,15 +18,47 @@ function NavigationMenu (props) {
             Home
           </Link>
         </li>
+
         <li>
           <Link
-            to="/about"
+            to="/quiz"
             className="text-blue-500 py-3 border-b block"
             onClick={props.closeMenu}
             >
-            About
+            Quiz
             </Link>
         </li>
+
+        <li>
+          <Link
+            to="/goodhydration"
+            className="text-blue-500 py-3 border-b block"
+            onClick={props.closeMenu}
+            >
+            GoodHydration
+            </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/dehydrated"
+            className="text-blue-500 py-3 border-b block"
+            onClick={props.closeMenu}
+            >
+            Dehydrated
+            </Link>
+        </li>
+
+        <li>
+          <Link
+            to="/references"
+            className="text-blue-500 py-3 border-b block"
+            onClick={props.closeMenu}
+            >
+            References
+            </Link>
+        </li>
+
       </ul>
     </div>
   )

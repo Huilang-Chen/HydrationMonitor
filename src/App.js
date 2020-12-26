@@ -1,13 +1,17 @@
 import React from 'react';
 // import './App.css';
-import Header from './component/Header';
-import Footer from './component/Footer';
-import HelloWorld from './component/HelloWorld';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+import Header from './component/Header';
+import Footer from './component/Footer';
+import Home from './view/Home.js';
+import Quiz from './view/Quiz.js';
+import GoodHydration from './view/GoodHydration.js';
+import Dehydrated from './view/Dehydrated.js';
+import References from './view/References.js';
 
 function App() {
   return (
@@ -16,15 +20,27 @@ function App() {
     <Router>
       <Header />
 
-      <HelloWorld name="Huilang" />
-
       <div className="p-3">
         <Switch>
+
           <Route exact path="/">
-            <h1 className="font-bold text-2xl">This is the home page</h1>
+            <Home />
           </Route>
-          <Route path="/about">
-            <h1 className="font-bold text-2xl">This is the about page</h1>
+
+          <Route path="/quiz">
+            <Quiz />
+          </Route>
+
+          <Route path="/goodhydration">
+            <GoodHydration />
+          </Route>
+
+          <Route path="/dehydrated">
+            <Dehydrated />
+          </Route>
+
+          <Route path="/references">
+            <References />
           </Route>
         </Switch>
       </div>
