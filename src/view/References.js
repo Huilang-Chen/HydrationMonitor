@@ -3,7 +3,7 @@ import React from 'react';
 function References() {
   return (
     <div>
-      <h1 className="font-bold text-2xl p-2">References:</h1>
+      <h1 className="font-bold text-2xl p-2">Resources:</h1>
       <ul className="p-3 text-blue-500 font-semibold">
 
         <li className="pb-2 hover:underline"><a href='https://www.onemedical.com/blog/live-well/6-benefits-of-staying-hydrated/'>

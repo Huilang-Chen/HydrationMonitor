@@ -11,7 +11,7 @@ function Home() {
 
       <p className="p-2.5 overflow-ellipsis">The body may not indicate thirst even when people already in the status of lacking fluids. When people sense thirst, the body usually already in mild hydration state (lost 1-2% of body weight).</p>
 
-      <p className="p-2.5 pb-5 overflow-ellipsis">Being dehydrated for a long duration increases the possibility of getting kidney stones, diabetes and other vascular diseases.</p>
+      <p className="p-2.5 pb-10 overflow-ellipsis">Being dehydrated for a long duration increases the possibility of getting kidney stones, diabetes and other vascular diseases.</p>
 
       <div className="p-2.5 text-center md:w-auto">
         <Link
