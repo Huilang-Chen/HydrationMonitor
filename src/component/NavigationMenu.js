@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import logo from './../image/logo.JPG'
 
 function NavigationMenu (props) {
   return (
     <div>
-      <div className="font-bold text-2xl py-3">
-        ✌️ Hydration Monitor
+      <div className="font-bold text-2xl py-3 flex justify-start items-center">
+        <img src={logo} alt="logo" height={30} width={30}/>
+        <h1 className="text-xl p-1">Hydration Monitor</h1>
       </div>
       <ul>
 

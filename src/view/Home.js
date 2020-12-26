@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <h1 className="font-bold text-2xl">
-      Why so many people are hydrated without knowing it?
+      Why you may be dehydrated without knowing it?
       </h1>
 
       <p>The body may not indicate thirst, even when people already in the status of lacking fluids. When people sense thirst, the body usually already in mild hydration state ( lost 1-2% of body weight).</p>
