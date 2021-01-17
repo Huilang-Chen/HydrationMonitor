@@ -1,5 +1,5 @@
 # Holiday Hack 2020 project
-## Project name: Hydration Monitor
+## Project name: Hydration Monitor:droplet:
 
 ## Inspiration
 According to a survey conducted by the Nutrition Information Center, about 75 percent of Americans are chronically dehydrated. Dehydration can cause fatigue, foggy memory, and irritability. Dehydration is one of the most common risk factors for kidney stones. It is critical to maintaining well-hydrated status in daily life.
